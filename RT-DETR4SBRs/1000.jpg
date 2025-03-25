@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotation><folder>resultkidxiaoyu12</folder><filename>1000.jpg</filename><path>E:\coco2voc\VOC\grenateimg\resultkidxiaoyu12\1000.jpg</path><source><database>Unknown</database></source><size><width>tensor(616, device='cuda:0')</width><height>tensor(408, device='cuda:0')</height><depth>3</depth></size><segmented>0</segmented><object><name>
