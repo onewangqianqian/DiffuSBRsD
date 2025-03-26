@@ -118,7 +118,7 @@ The main scripts in MSSIM are placed in the `project`, and its structure is as f
     └── XML2COCO.py
 ```
 `MSSIM.py` is used to calculate the scores of the generated images.
-The weights used in MSSIM are: [weights](https://drive.google.com/file/d/15ThIuUtTOmD29A9PSZSgfczVqCGWIE36/view?usp = sharing)
+The weights used in MSSIM are: [weights](https://drive.google.com/file/d/15ThIuUtTOmD29A9PSZSgfczVqCGWIE36/view?usp=sharing)
 `FIter.py` is used to filter the generated images with low scores.
 `COCO2XML.py` and `XML2COCO.py` are two convenient format conversion tools.
 
@@ -129,8 +129,8 @@ pip install -r requirements.txt
 ```
 ### Datasets and Weights
 
-[Weights](https://drive.google.com/file/d/1sPCuBqqPaZExfviZuJjprs8ruhyab - F - /view?usp = sharing)
-[Datasets](https://drive.google.com/file/d/1CUR5aVStHhzUgXutgg3qbtdQnFcpU4k7/view?usp = sharing)
+[Weights](https://drive.google.com/file/d/1sPCuBqqPaZExfviZuJjprs8ruhyab-F-/view?usp=sharing)
+[Datasets](https://drive.google.com/file/d/1CUR5aVStHhzUgXutgg3qbtdQnFcpU4k7/view?usp=sharing)
 
 ### Training
 
