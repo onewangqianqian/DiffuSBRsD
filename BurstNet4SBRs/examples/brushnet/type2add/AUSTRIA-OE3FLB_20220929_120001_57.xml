@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type2add</folder>
+	<filename>AUSTRIA-OE3FLB_20220929_120001_57.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type2add\AUSTRIA-OE3FLB_20220929_120001_57.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type2</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>18</ymin>
+			<xmax>620</xmax>
+			<ymax>378</ymax>
+		</bndbox>
+	</object>
+</annotation>

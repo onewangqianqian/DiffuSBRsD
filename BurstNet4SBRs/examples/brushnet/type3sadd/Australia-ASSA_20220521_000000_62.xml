@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type3sadd</folder>
+	<filename>Australia-ASSA_20220521_000000_62.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type3sadd\Australia-ASSA_20220521_000000_62.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type3s</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>400</xmin>
+			<ymin>1</ymin>
+			<xmax>498</xmax>
+			<ymax>359</ymax>
+		</bndbox>
+	</object>
+</annotation>

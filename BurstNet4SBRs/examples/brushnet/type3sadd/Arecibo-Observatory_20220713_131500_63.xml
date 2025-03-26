@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type3sadd</folder>
+	<filename>Arecibo-Observatory_20220713_131500_63.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type3sadd\Arecibo-Observatory_20220713_131500_63.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type3s</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>106</xmin>
+			<ymin>54</ymin>
+			<xmax>180</xmax>
+			<ymax>391</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type3sadd</folder>
+	<filename>ALASKA-COHOE_20220511_010001_63.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type3sadd\ALASKA-COHOE_20220511_010001_63.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type3s</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>236</xmin>
+			<ymin>95</ymin>
+			<xmax>362</xmax>
+			<ymax>397</ymax>
+		</bndbox>
+	</object>
+</annotation>

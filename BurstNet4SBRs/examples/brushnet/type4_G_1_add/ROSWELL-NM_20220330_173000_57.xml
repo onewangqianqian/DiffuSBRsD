@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type4_G_1_add</folder>
+	<filename>ROSWELL-NM_20220330_173000_57.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type4_G_1_add\ROSWELL-NM_20220330_173000_57.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type4</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>203</xmin>
+			<ymin>2</ymin>
+			<xmax>488</xmax>
+			<ymax>398</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type5add</folder>
+	<filename>SWISS-HEITERSWIL_20210827_104500_59.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type5add\SWISS-HEITERSWIL_20210827_104500_59.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type5</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>39</xmin>
+			<ymin>1</ymin>
+			<xmax>110</xmax>
+			<ymax>399</ymax>
+		</bndbox>
+	</object>
+</annotation>

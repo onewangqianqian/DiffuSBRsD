@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type5add</folder>
+	<filename>EGYPT-Alexandria_20220624_091549_01.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type5add\EGYPT-Alexandria_20220624_091549_01.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type5</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>564</xmin>
+			<ymin>215</ymin>
+			<xmax>620</xmax>
+			<ymax>327</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -23,7 +23,7 @@ from diffusers import (
 # choose the base model here
 base_model_path = ""
 # base_model_path = "stabilityai/stable-diffusion-xl-base-1.0"
-
+import shutil
 # input brushnet ckpt path
 burst_temp=""
 brushnet_path =""
@@ -189,14 +189,13 @@ def get_number(directory):
     # 过滤掉文件夹，统计文件的数量
     file_count = sum(1 for f in files if os.path.isfile(os.path.join(directory, f)))
     return file_count
-mask_list=get_json_files("/root/code/BurstNet/examples/brushnet/type4_G_1_add")
-image_list=get_jpg_files("/root/code/BurstNet/examples/brushnet/radom-gander/sourceimage")
+mask_list=get_json_files("")
+image_list=get_jpg_files("")
 # mask_list=get_json_files("/root/code/BurstNet/examples/brushnet/type4add")
 # image_list=get_jpg_files("/root/code/BurstNet/examples/brushnet/type4add")
 
-temp_point=get_number("/mnt/mydisk2/type4_G_1")
 
-for index in range(temp_point,10000):
+for index in range(0,10000):
     image_path=random.choice(image_list)
     # mask_path=mask_list[index % len(mask_list)]
     mask_path=random.choice(mask_list)
@@ -217,40 +216,12 @@ for index in range(temp_point,10000):
         generator=generator,
     ).images[0]
 
-    image.save("/mnt/mydisk2/type4_G_1/"+"type4_G1_"+str(index)+".jpg")
-    print("/mnt/mydisk2/type4_G_1/"+"type4_G1_"+str(index)+".jpg")
-# for index in range(1,100):
-#
-#     for a,b in zip(mask_list, image_list):
-#         image_path=b
-#         mask_path=a
-#
-#         validation_image = Image.open(image_path).convert("RGB")
-#
-#         with open(mask_path, 'r', encoding='utf-8') as json_file:
-#             data = json.load(json_file)
-#         segmentation = data["shapes"]
-#         arr =  np.zeros((validation_image.size[1], validation_image.size[0]), dtype=np.uint8) * 255
-#         for indez in segmentation:
-#             polygon_points = np.array(indez["points"], dtype=np.int32)
-#             polygon_points = polygon_points.reshape((-1, 1, 2))
-#             cv2.fillPoly(arr, [polygon_points], 255)
-#         arr.reshape((validation_image.size[1], validation_image.size[0], 1), order='F')
-#         validation_mask = Image.fromarray(arr.astype('uint8'), 'L')
-#         validation_image = Image.composite(
-#             Image.new('RGB', (validation_image.size[0], validation_image.size[1]), (0, 0, 0)),
-#             validation_image, validation_mask)
-#
-#         image = pipe(
-#             prompt=caption,
-#             image=validation_image,
-#             mask=validation_mask,
-#             num_inference_steps=20,
-#             generator=generator,
-#             brushnet_conditioning_scale=brushnet_conditioning_scale
-#         ).images[0]
-#
-#         image.save("/mnt/mydisk/output2/"+str(index)+"-"+os.path.basename(b))
+    dir_path=""
+    imagename="type4_G1_"+str(index)+".jpg"
+    image.save(dir_path+imagename)
+    xml_path=dir_path+imagename.replace('.jpg','.xml')
+    shutil.copy(mask_path, xml_path)
+
 if blended:
     image_np=np.array(image)
     init_image_np=cv2.imread(image_path)[:,:,::-1]

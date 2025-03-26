@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type3sadd</folder>
+	<filename>AUSTRIA-UNIGRAZ_20210830_113000_01.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type3sadd\AUSTRIA-UNIGRAZ_20210830_113000_01.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type3s</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>509</xmin>
+			<ymin>2</ymin>
+			<xmax>580</xmax>
+			<ymax>400</ymax>
+		</bndbox>
+	</object>
+</annotation>

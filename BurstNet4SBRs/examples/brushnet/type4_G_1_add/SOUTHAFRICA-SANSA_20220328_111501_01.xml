@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type4_G_1_add</folder>
+	<filename>SOUTHAFRICA-SANSA_20220328_111501_01.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type4_G_1_add\SOUTHAFRICA-SANSA_20220328_111501_01.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type4</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>301</xmin>
+			<ymin>1</ymin>
+			<xmax>620</xmax>
+			<ymax>406</ymax>
+		</bndbox>
+	</object>
+</annotation>

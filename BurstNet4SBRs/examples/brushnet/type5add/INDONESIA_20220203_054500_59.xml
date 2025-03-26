@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type5add</folder>
+	<filename>INDONESIA_20220203_054500_59.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type5add\INDONESIA_20220203_054500_59.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type5</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>370</xmin>
+			<ymin>1</ymin>
+			<xmax>415</xmax>
+			<ymax>408</ymax>
+		</bndbox>
+	</object>
+</annotation>

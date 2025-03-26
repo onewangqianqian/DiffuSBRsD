@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type3sadd</folder>
+	<filename>ALASKA-HAARP_20220709_223000_62.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type3sadd\ALASKA-HAARP_20220709_223000_62.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type3s</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>93</xmin>
+			<ymin>35</ymin>
+			<xmax>307</xmax>
+			<ymax>363</ymax>
+		</bndbox>
+	</object>
+</annotation>

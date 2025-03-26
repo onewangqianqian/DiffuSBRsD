@@ -1,0 +1,26 @@
+<annotation>
+	<folder>type5add</folder>
+	<filename>ALASKA-HAARP_20220430_201500_62.png</filename>
+	<path>E:\learn_test1_try\BurstNet\examples\brushnet\type5add\ALASKA-HAARP_20220430_201500_62.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>410</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>type5</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>80</xmin>
+			<ymin>33</ymin>
+			<xmax>218</xmax>
+			<ymax>365</ymax>
+		</bndbox>
+	</object>
+</annotation>
